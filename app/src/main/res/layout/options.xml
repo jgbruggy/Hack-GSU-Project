@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioButton
+        android:id="@+id/radioSize20"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <RadioButton
+        android:id="@+id/radioSize30"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:text="25"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <RadioButton
+        android:id="@+id/radioSize30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="98dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Options"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Text Size"
+        android:textSize=""
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sound"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+
+
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Off"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -32,6 +32,7 @@
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="74dp"
+        android:background="@null"
         android:layout_height="wrap_content"
         android:src="@drawable/Smiling_Emoji_with_Eyes_Opened"
         app:layout_constraintEnd_toStartOf="@+id/imageButton3"
@@ -41,6 +42,7 @@
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="74dp"
+        android:background="@null"
         android:layout_height="wrap_content"
         android:src="@drawable/Slightly_Smiling_Face_Emoji"
         app:layout_constraintEnd_toStartOf="@+id/imageButton4"
@@ -49,6 +51,7 @@
 
     <ImageButton
         android:id="@+id/imageButton4"
+        android:background="@null"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/Neutral_Face_Emoji"
@@ -60,6 +63,7 @@
         android:id="@+id/imageButton6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@null"
         android:src="@drawable/Confused_Face_Emoji"
         app:layout_constraintEnd_toStartOf="@+id/imageButton7"
         app:layout_constraintStart_toEndOf="@+id/imageButton4"
@@ -69,6 +73,8 @@
         android:id="@+id/imageButton7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:background="@null"
         android:src="@drawable/Very_sad_emoji_icon_png"
         app:layout_constraintStart_toEndOf="@+id/imageButton6"
         tools:layout_editor_absoluteY="313dp" />
